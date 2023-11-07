@@ -59,9 +59,9 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/LunchOrdersUSA.loader.js";
       var config = {
-        dataUrl: buildUrl + "/LunchOrdersUSA.data.unityweb",
-        frameworkUrl: buildUrl + "/LunchOrdersUSA.framework.js.unityweb",
-        codeUrl: buildUrl + "/LunchOrdersUSA.wasm.unityweb",
+        dataUrl: buildUrl + "/LunchOrdersUSA.data",
+        frameworkUrl: buildUrl + "/LunchOrdersUSA.framework.js",
+        codeUrl: buildUrl + "/LunchOrdersUSA.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "The Super Challenge",
         productName: "Lunch Orders USA",
@@ -98,7 +98,6 @@
         canvas.style.height = "640px";
       }
 
-      canvas.style.background = "url('" + buildUrl + "/LunchOrdersUSA.jpg.unityweb') center / cover";
       loadingBar.style.display = "block";
 
       var script = document.createElement("script");
